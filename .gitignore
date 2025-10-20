@@ -11,6 +11,10 @@
 
     # Ignore log files
     *.log
+    *.tmp
+    *.cache
+    *.env
+    *.key
 
     # Ignore temporary files
     *.tmp
@@ -19,3 +23,5 @@
     # Ignore OS-specific files
     .DS_Store
     Thumbs.db
+
+
