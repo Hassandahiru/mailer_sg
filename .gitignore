@@ -1,0 +1,21 @@
+    # Ignore build artifacts
+    /build/
+    /dist/
+
+    # Ignore node_modules
+    /node_modules/
+
+    # Ignore environment variables
+    .env
+    .env.local
+
+    # Ignore log files
+    *.log
+
+    # Ignore temporary files
+    *.tmp
+    *.swp
+
+    # Ignore OS-specific files
+    .DS_Store
+    Thumbs.db

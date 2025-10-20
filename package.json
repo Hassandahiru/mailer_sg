@@ -1,0 +1,33 @@
+{
+  "name": "emailer_sg",
+  "version": "1.0.0",
+  "description": "Email notification service for SafeGuard ",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hassandahiru/mailer_sg.git"
+  },
+  "author": "Hassan Dahiru Ado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hassandahiru/mailer_sg/issues"
+  },
+  "homepage": "https://github.com/Hassandahiru/mailer_sg#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "handlebars": "^4.7.8",
+    "helmet": "^8.1.0",
+    "joi": "^18.0.1",
+    "nodemailer": "^7.0.9",
+    "uuid": "^13.0.0"
+  }
+}
